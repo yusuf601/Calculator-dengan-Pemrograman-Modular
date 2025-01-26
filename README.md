@@ -18,7 +18,7 @@ Proyek ini adalah sebuah kalkulator sederhana yang dibuat menggunakan konsep **p
 ## Struktur Direktori
 Berikut adalah struktur direktori proyek ini:
 
-
+```bash
 Calculator-dengan-Pemrograman-Modular/
 ├── include/
 │ ├── input.h
@@ -32,7 +32,7 @@ Calculator-dengan-Pemrograman-Modular/
 ├── .gitignore
 ├── makefile
 └── README.md
-
+```
 
 
 ### Penjelasan Struktur Direktori
