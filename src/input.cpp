@@ -1,7 +1,7 @@
 #include "../include/input.h"
 #include <iostream>
 
-void pilihan(int choice){
+void pilihan(int& choice){
     std::cout << "Pilihan menu! " << std::endl;
     std::cout << "1.Penjumlahan " << std::endl;
     std::cout << "2.Pengurangan " << std::endl;
@@ -13,7 +13,7 @@ void pilihan(int choice){
 }
 
 
-void Input(int a,int b){
+void Input(int& a,int& b){
     std::cout << "Masukkan nilai a: ";
     std::cin >> a;
     std::cout << "Masukkan nilai b: ";

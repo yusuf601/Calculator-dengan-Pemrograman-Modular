@@ -2,8 +2,9 @@
 #include "../include/input.h"
 #include "../include/output.h"
 int main(){
-    int a,b;
+    int a,b,choice;
     //menginput nilai
+    pilihan(choice)
     Input(a,b);
     switch(pilihan()){
         case 1: {
