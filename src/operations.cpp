@@ -13,7 +13,7 @@ int bagi(int &a,int &b){
 }
 
 
-int kali(int& &a,int &b){
+int kali(int& a,int &b){
     return a * b;
     
 }
