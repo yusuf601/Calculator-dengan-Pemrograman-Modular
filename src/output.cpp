@@ -1,20 +1,20 @@
+#include "../include/output.h"
 #include <iostream>
-#include <output.h>
 
 
-void outputPenjumlahan(auto hasilPenjumlahan){
+void outputPenjumlahan(int hasilPenjumlahan){
     std::cout << "Hasil penjumlahan: " << hasilPenjumlahan << std::endl;
 }
 
-void outputPengurangan(auto hasilPengurangan){
+void outputPengurangan(int hasilPengurangan){
     std::cout << "Hasil Pengurangan: " << hasilPengurangan << std::endl;
 }
 
-void outputPerkalian(auto hasilPerkalian){
+void outputPerkalian(int hasilPerkalian){
     std::cout << "Hasil Perkalian: " << hasilPerkalian << std::endl;
 }
 
-void outputPembagian(auto hasilPembagian){
+void outputPembagian(int hasilPembagian){
     std::cout << "Hasil Pembagian: " << hasilPembagian << std::endl;
     
 }

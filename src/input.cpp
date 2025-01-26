@@ -1,5 +1,5 @@
+#include "../include/input.h"
 #include <iostream>
-#include <input.h>
 
 void pilihan(int choice){
     std::cout << "Pilihan menu! " << std::endl;

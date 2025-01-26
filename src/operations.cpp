@@ -1,23 +1,19 @@
+#include "../include/operation.h"
 #include <iostream>
-#include <operation.h>
-auto tambah(auto a,auto b){
-    hasilPertambahan = a + b;
-    return hasilPertambahan;
+int tambah(int a,int b){
+    return a + b;
 }
 
-auto kurang(auto a,auto b){
-    hasilPengurangan = a - b;
-    return hasilPengurangan;
+int kurang(int a,int b){
+    return a - b;
 }
 
-auto bagi(auto a,auto b){
-    hasilPembagian = a / b;
-    return hasilPertambahan;
+int bagi(int a,int b){
+    return a / b;
 }
 
 
-auto kali(auto a,auto b){
-    hasilPerkalian = a * b;
-    return hasilPerkalian;
+int kali(int a,int b){
+    return a * b;
     
 }
